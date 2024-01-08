@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <title>Đăng nhập</title>
+  <style>   
+    body {
+      background-image: url(''); /* Đường dẫn đến ảnh nền */
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 100vh;
+    }
+    .container {
+      max-width: 400px;
+      margin: 100px auto;
+      background-color: rgba(246, 246, 246, 0.8); /* Màu nền cho phần nội dung */
+      padding: 20px;
+      border-radius: 10px;
+    }
+    #login-tab.active {
+        background-color: #007bff; /* Change this to the desired color */
+        color: #fff; /* Change this to the desired text color */
+      }
+  
+      /* Style for ĐĂNG KÍ tab */
+      #register-tab.active {
+        background-color: #28a745; /* Change this to the desired color */
+        color: #fff; /* Change this to the desired text color */
+      }
+</style>
+<style>
+  </style>
+  <style>
+  </style>
+  <style>
+    body {
+      background-color: #ffffff;
+    }
+    .container {
+      max-width: 400px;
+      margin: 100px auto;
+    }
+  </style>
+</head>
+<div class="container">
+  <ul class="nav nav-tabs">
+    <li class="nav-item">
+      <a class="nav-link active" id="login-tab" data-toggle="tab" href="#login">ĐĂNG NHẬP TÀI KHOẢN</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" id="register-tab" data-toggle="tab" href="#register">ĐĂNG KÍ</a>
+    </li>
+  </ul>
+  <div class="tab-content">
+    <div class="tab-pane fade show active" id="login">
+      <form>
+        <div class="form-group">
+          <label for="loginEmail">NHẬP GMAIL</label>
+          <input type="email" class="form-control" id="loginEmail" aria-describedby="emailHelp" placeholder="Enter email">
+        </div>
+        <div class="form-group">
+          <label for="loginPassword">MẬT KHẨU</label>
+          <input type="password" class="form-control" id="loginPassword" placeholder="Password">
+        </div>
+        <button type="submit" class="btn btn-primary">ĐĂNG NHẬP</button>
+      </form>
+    </div>
+    <div class="tab-pane fade" id="register">
+      <form>
+        <div class="form-group">
+          <label for="registerName">TÊN TÀI KHOẢN</label>
+          <input type="text" class="form-control" id="registerName" placeholder="Enter your full name">
+        </div>
+        <div class="form-group">
+          <label for="registerEmail">NHẬP GMAIL</label>
+          <input type="email" class="form-control" id="registerEmail" aria-describedby="emailHelp" placeholder="Enter email">
+        </div>
+        <div class="form-group">
+          <label for="registerPassword">NHẬP MẬT KHẨU</label>
+          <input type="password" class="form-control" id="registerPassword" placeholder="Password">
+        </div>
+        <button type="submit" class="btn btn-primary">TIẾP</button>
+      </form>
+    </div>
+  </div>
+</div>
+<body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
